@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #eef1f6;
+  display: flex;
+  justify-content: center;
+  padding: 40px 15px;
+  margin: 0;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 0;
+}
+
+.linha {
+  display: flex;
+  gap: 8px;
+}
+
+#nova-tarefa {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  padding: 10px 14px;
+  font-size: 15px;
+  background: #2d3a8c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 10px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+li span {
+  cursor: pointer;
+  flex: 1;
+}
+
+li.feita span {
+  text-decoration: line-through;
+  color: #999;
+}
+
+li button {
+  background: #c0392b;
+  padding: 6px 10px;
+  font-size: 13px;
+}
+
+#contador {
+  text-align: center;
+  color: #666;
+}
