@@ -2,7 +2,7 @@
 
 Lista de tarefas feita com HTML, CSS e JavaScript. É possível adicionar, marcar como feita e remover tarefas, e os dados ficam salvos no navegador.
 
-🔗 **Veja funcionando:** https://isabelleassis74.github.io/lista-de-tarefas
+🔗 **Link com Erro -EM PROCESSO-:** https://isabelleassis74.github.io/lista-de-tarefas
 
 ## Tecnologias
 - HTML
